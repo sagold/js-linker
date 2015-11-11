@@ -16,7 +16,7 @@ module.exports = {
         path: "dist",
         publicPath: "/dist",
         filename: "linker.js",
-        library: "linker"
+        library: "Linker"
     },
     // configure modules
     module: {},
