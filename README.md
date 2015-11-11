@@ -28,11 +28,15 @@ var registry = new Linker.Registry({
     }
 });
 
-registry.publish("list", function ($element, $children, $items) {
+registry.add("list", function ($element, $children, $items) {
+    // $element = <ul data-component="list">
+    // $children = [instanceOf ChildConstructor]
+    // $items = {"data-item-value": HTMLLIElement}
+    //  i.e. $items.second = <li data-item="second" data-component="child-item">2</li>
     console.log("list instance", $element, $children, $items);
 });
 
-registry.publish("child-item", function ($element, $children, $items) {
+registry.add("child-item", function ChildConstructor($element, $children, $items) {
     console.log("child instance", $element, $children, $items);
 });
 
