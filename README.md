@@ -1,6 +1,6 @@
 # linker
 
-Lightweight javascript linker to register HTMLElements within to a javascript instance
+A JS helper to register HTMLElements to an js instance
 
 
 ## Install
