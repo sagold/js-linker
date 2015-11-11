@@ -1,0 +1,23 @@
+{
+  "name": "linker",
+  "version": "0.0.0",
+  "authors": [
+    "Sascha Goldhofer <post@saschagoldhofer.de>"
+  ],
+  "description": "Link js to html",
+  "main": "lib/index.js",
+  "moduleType": [],
+  "keywords": [
+    "linker",
+    "bootstrap"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

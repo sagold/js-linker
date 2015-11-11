@@ -1,0 +1,14 @@
+{
+  "name": "linker",
+  "version": "0.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha test/**/*.test.js"
+  },
+  "author": "Sascha Goldhofer <noreply@saschagoldhofer.de> (https://github.com/sagold/)",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^1.12.4"
+  }
+}
