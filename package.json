@@ -1,7 +1,7 @@
 {
   "name": "linker",
   "version": "0.0.1",
-  "description": "",
+  "description": "A JS helper to register HTMLElements to an js instance",
   "main": "lib/index.js",
   "scripts": {
     "test": "mocha test/**/*.test.js"
